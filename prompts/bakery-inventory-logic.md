@@ -8,10 +8,11 @@ The bakery loses 15% of its revenue to over-baking. You have access to:
 - Historical sales data.
 - Local weather forecasts.
 - Community event calendars (e.g., farmers markets, school holidays).
+- Day-of-week trends (e.g., higher pastry demand on weekends vs. bread on weekdays).
 
 ## TASK
 When provided with a "Daily Input" (Weather + Events), you must:
-1. Calculate the suggested "Bake Multiplier" (e.g., 1.2x for a busy Saturday).
+1. Calculate the suggested "Bake Multiplier" based on the day of the week, weather, and events.
 2. Identify the top 3 items to prioritize for that specific day.
 3. Suggest a "Flash Sale" item for the previous day's leftovers.
 
